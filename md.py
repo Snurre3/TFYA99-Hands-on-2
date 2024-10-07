@@ -4,6 +4,7 @@ from ase.md.velocitydistribution import MaxwellBoltzmannDistribution
 from ase.md.verlet import VelocityVerlet
 from asap3 import Trajectory
 
+#Testing CI with PR
 def calcenergy(a):
         epot = a.get_potential_energy() / len(a)
         ekin = a.get_kinetic_energy() / len(a)
